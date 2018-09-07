@@ -1,0 +1,29 @@
+.row{
+	padding: 1rem;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+.carousel-caption h5{
+	font-size:3rem;
+}
+
+.carousel-caption p{
+	font-size:2em;
+}
+
+
+.fellows span{
+	font-size:2rem;
+}
+.fellows a{
+	height: 2rem;
+	font-size: 1rem;
+}
+
+.figfellow img{
+	width: 6rem;
+	height: 8rem;
+	
+}
