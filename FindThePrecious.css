@@ -1,29 +1,69 @@
-.row{
-	padding: 1rem;
-}
+
 .carousel-caption {
-  bottom: 3rem;
+  bottom: 30px;
   z-index: 10;
-}
-.carousel-caption h5{
-	font-size:3rem;
-}
-
-.carousel-caption p{
-	font-size:2em;
+  text-align: center;
 }
 
 
-.fellows span{
-	font-size:2rem;
+.picture{
+  position:relative;
 }
-.fellows a{
-	height: 2rem;
-	font-size: 1rem;
+.card-img-top{
+  z-index:1;
+  width:100%;
+  height:100%;
+  opacity:0.5;
+}
+.reward{
+  background-color:#FFFFFF;
+	position: absolute;
+	padding: 0.5em 1.5em 0.5em 1.5em;
+	text-align:center;
+	font-size: 2em;
+	top: 0.5em;
+	left:25%;
+	border-radius: 10px;
+}
+.name{
+  position:absolute;
+  text-align:center;
+  top:50%;
+  color:#FFFFFF;
+  font-size:5em;
+  width:100%;
+}
+.orange {
+  color: #EA3F1C
 }
 
-.figfellow img{
-	width: 6rem;
-	height: 8rem;
-	
+.card:hover .reward {display: none;}
+.card:hover .name{
+  position:absolute;
+  text-align:center;
+  top:80%;
+  color:#FFF;
+  font-size:2em;
+  width:100%;
 }
+
+@media (max-width:1300px){
+
+.reward{
+	padding: 0em;
+	font-size: 30px;
+	top: 0.5em;
+	left:20%;
+	border-radius: 3px;
+}
+.name{
+  position:absolute;
+  text-align:center;
+  top:50%;
+  color:#FFFFFF;
+  font-size:1em;
+  width:100%;
+}
+
+}
+
