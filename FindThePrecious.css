@@ -1,10 +1,22 @@
-
+.container{
+  background-color: #F5F2EB;
+}
 .carousel-caption {
   bottom: 30px;
   z-index: 10;
   text-align: center;
+  top:9em;
+  font-family:"Party Business", Times, serif;
+  color: #FFFFFF;
 }
-
+.carousel-caption h4{
+  font-size: 4em;
+  text-align: left;
+}
+.carousel-caption p{
+  font-size: 2em;
+  text-align: left;
+}
 
 .picture{
   position:relative;
@@ -16,17 +28,35 @@
   opacity:0.5;
 }
 .reward{
-  background-color:#FFFFFF;
-	position: absolute;
-	padding: 0.5em 1.5em 0.5em 1.5em;
-	text-align:center;
-	font-size: 2em;
+  position: absolute;
+  background-color:#F5F2EB ;
+  box-shadow: 8px 8px 12px #5D5C57;
+  z-index: 5;
+  opacity:.8;
+  font-family:"Party Business", Times, serif;
+	font-weight: bold;
+ 	text-align:center;
+	font-size:2.3em;
 	top: 0.5em;
-	left:25%;
+	left:15%;
 	border-radius: 10px;
+}
+.dead{
+  position: absolute;
+  z-index: 5; 
+  opacity:.8;
+  font-family:"Party Business", Times, serif;
+  font-weight: bold;
+  text-align:center;
+  font-size:4em;
+  top: 0.5em;
+  left:30%;
+  border-radius: 10px;
 }
 .name{
   position:absolute;
+  z-index: 5; 
+  font-family:"Party Business", Times, serif;
   text-align:center;
   top:50%;
   color:#FFFFFF;
@@ -36,10 +66,15 @@
 .orange {
   color: #EA3F1C
 }
+.textbarre{
+  text-decoration: line-through;
+  text-decoration-color: #FE661D;
+}
 
-.card:hover .reward {display: none;}
+.card:hover .reward .dead {display: none;}
 .card:hover .name{
   position:absolute;
+  font-family:"Party Business", Times, serif;
   text-align:center;
   top:80%;
   color:#FFF;
@@ -67,3 +102,43 @@
 
 }
 
+#navbar{
+  background-color: #FE661D
+
+}
+#navbar a{
+  font-family:"Party Business", Times, serif;
+  font-size: 1.5em;
+  text-align: center;
+  color: #FFFFFF;
+}
+.fellows h2{
+  font-family:"AnironC", Times, serif;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 30px;
+
+}
+.fellows small{
+  font-family:"AnironC", Times, serif;
+  font-weight: bold;
+}
+.badge{
+  padding: 20px;
+  margin: 20px;
+  font-family:"AnironC", Times, serif;
+  font-size:17px;
+  color: #5D5C57;
+}
+.badge:hover{
+  color: #FE661D;
+}
+.card{
+   border: 5px solid black;
+}
+.card-body{
+  background-color: black;
+  font-family:"Party Business", Times, serif;
+  color: #FFFFFF;
+  font-size: 2em;
+}
