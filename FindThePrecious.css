@@ -17,6 +17,10 @@
   font-size: 2em;
   text-align: left;
 }
+#symbol{
+  font-family: "Tengwar Annatar", Times, serif;
+  color: orange ;
+}
 
 .picture{
   position:relative;
