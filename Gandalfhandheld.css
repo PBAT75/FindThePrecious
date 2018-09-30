@@ -1,62 +1,39 @@
-.card-img-top{
-  position:relative;
-  z-index:1;
-  opacity:0.5
-}
 
-.orange{
-  color:orange;
-  font-weight: bold;
-}
+@media handheld{
 
-.figfellows{
-  position:relative;
-  margin:0 auto;
-  padding: 0;
-  width: 100%;
-  height:auto;
-}
-.figcaptionfellows .name{
+..figcaptionfellows .name{
   position:absolute;
   z-index:2;
-  top:50%;
-  margin-left: 30%
+  top:2rem;
+  margin-left: 4%;
   color:#FFFFFF;
   font-family:Verdana, Arial, Helvetica, sans-serif;
-  font-size: 200%;
+  font-size: 20%;
   text-align: center;
 
 }
 .figcaptionfellows .reward {
-    width: 50%;
-    height: 25%;
+    width: 5%;
+    height: 2%;
     position:absolute;
     z-index:2;
     top: 3rem;
-    margin-left:25%;
+    margin-left: 3%;
     background-color:#FFFFFF ;
     color: #000;
     border-radius: 7px;
     font-family:Verdana, Arial, Helvetica, sans-serif;
-    font-size: 250%;
+    font-size: 2%;
     text-align: center;
     text-decoration: none; 
-}
-
-
-
-.card:hover img {
-  opacity:1;
-}
-.card:hover .reward{
-  display:none;
 }
 .card:hover .name{
   position:absolute;
   z-index:2;
-  top:80%;
-  margin-left: 30%
+  top:5%;
+  margin-left: 3%
   color:#FFFFFF;
   font-family:Verdana, Arial, Helvetica, sans-serif;
-  font-size: 3rem;
+  font-size: 1rem;
+}
 }
